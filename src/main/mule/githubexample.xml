@@ -11,5 +11,6 @@ http://www.mulesoft.org/schema/mule/http http://www.mulesoft.org/schema/mule/htt
 		<http:listener doc:name="Listener" doc:id="441b35cf-3bb0-4593-b6b7-f06498123925" config-ref="HTTP_Listener_config" path="/githubexample"/>
 		<logger level="INFO" doc:name="Logger" doc:id="f43207b4-20f3-4d5d-a810-9435acf2f3ac" message="request recived.."/>
 		<set-payload value='#["hello"]' doc:name="Set Payload" doc:id="64311ef1-25df-4d0f-a891-28260900c06f" />
+		<logger level="INFO" doc:name="Logger" doc:id="58bbb24e-7c5a-4851-947b-2a1446e079a2" message="finally don egithub successfully......"/>
 	</flow>
 </mule>
